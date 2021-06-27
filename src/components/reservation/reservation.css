@@ -1,0 +1,82 @@
+.reservation {
+    background-image: url('../../images/reservation-bg.png');
+    background-size: cover;
+    height: 838px;
+    color: rgb(61, 37, 20);
+    padding-top: 7rem;
+}
+
+.reservation h6, 
+.reservation h1 {
+    color: rgb(61, 37, 20);
+}
+
+.reservation h6 {
+    letter-spacing: 0.1rem;
+}
+
+.reservation h1 {
+    margin-bottom: 6.5rem;
+}
+
+.reservation form {
+    padding-inline: 18rem;
+}
+
+.reservation form input {
+    padding-block: 1.6rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+@media (max-width: 575px) {
+    .reservation {
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 0;
+        height: 100%;
+    }
+
+    .reservation h1 {
+        margin-bottom: 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    .reservation form {
+        padding-inline: 0;
+    }
+
+    .reservation form input {
+        padding-block: 1rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .reservation {
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 0;
+        height: 100%;
+    }
+
+    .reservation h1 {
+        margin-bottom: 3rem;
+    }
+    
+    .reservation form {
+        padding-inline: 7rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .reservation {
+        height: 100%;
+    }
+
+    .reservation h1 {
+        margin-bottom: 3rem;
+    }
+    
+    .reservation form {
+        padding-inline: 10rem;
+    }
+}

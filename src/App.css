@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    color: rgb(61, 37, 20);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.order-section {
+    overflow-x: hidden;
+}
+
+.order-section p {
+    font-family: 'Bebas Neue', cursive;
+}

@@ -1,0 +1,10 @@
+nav {
+    z-index: 999;
+}
+
+nav .navbar-collapse .navbar-nav a {
+    color: rgb(61, 37, 20) !important;
+    z-index: 999;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.2rem;
+}

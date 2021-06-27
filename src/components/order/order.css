@@ -1,0 +1,9 @@
+.description {
+    padding-inline: 11rem;
+}
+
+@media (max-width: 575px) {
+    .description {
+        padding-inline: 1rem;
+    }
+}

@@ -1,0 +1,27 @@
+.food {
+    position: relative;
+    color: white;
+}
+
+.food h6,
+.food p {
+    position: absolute;
+    padding: 18px;
+}
+
+.food p {
+    top: 16px;
+}
+
+.food p:nth-of-type(2) {
+    top: 33px;
+}
+
+.tasty {
+    background-color: rgb(255, 192, 69);
+    color: rgb(61, 37, 20);
+    width: 235px;
+    padding: 8px;
+    margin: auto;
+}
+  
